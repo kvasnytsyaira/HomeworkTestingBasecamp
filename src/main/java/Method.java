@@ -1,7 +1,7 @@
 public class Method {
 
 
-    public String replaceAllDigitsInAStringWithTheirSquares( String input) throws Throwable {
+    public String replaceAllDigitsInAStringWithTheirSquares( String input) throws EmptyInputException {
         Method method = new Method();
 
         if (input.equals("")){
