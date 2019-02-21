@@ -4,7 +4,6 @@ public class Method {
 
 
     public String replaceAllDigitsInAStringWithTheirSquares(String input) throws EmptyInputException {
-        Method method = new Method();
 
         if (input.equals("")){throw new EmptyInputException();}
 
@@ -27,7 +26,6 @@ public class Method {
         digits.put(" 7 ", " 49 ");
         digits.put(" 8 ", " 64 ");
         digits.put(" 9 ", " 81 ");
-
 
         for ( String key : digits.keySet() ) {
             if (input.contains(key)) {
