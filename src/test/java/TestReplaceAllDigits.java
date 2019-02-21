@@ -24,5 +24,10 @@ public class TestReplaceAllDigits {
         assertEquals("FORTY NINE",method.replaceAllDigitsInAStringWithTheirSquares("SEVEN"));
     }
 
+    @Test
+    public void test_replaceAllDigits_when_input_doesNot_contain_digits_expected_result_output_equals_input () throws EmptyInputException{
+        Method method = new Method();
+        assertEquals("This is a million - 1000000",method.replaceAllDigitsInAStringWithTheirSquares("This is a million - 1000000"));
+    }
 
 }
