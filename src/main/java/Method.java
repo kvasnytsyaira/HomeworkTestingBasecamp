@@ -5,7 +5,7 @@ public class Method {
 
     public String replaceAllDigitsInAStringWithTheirSquares(String input) throws EmptyInputException {
 
-        if (input.equals("")){throw new EmptyInputException();}
+        if (input.equals("") || input.equals(" ")){throw new EmptyInputException();}
 
         HashMap<String , String> digits = new HashMap<>();
         digits.put("ONE", "ONE");

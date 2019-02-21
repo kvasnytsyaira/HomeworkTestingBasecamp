@@ -22,7 +22,7 @@ public class TestReplaceAllDigits {
     @Test
     public void test_replaceAllDigits_when_input_equals_7_expected_result_is_49 () throws EmptyInputException {
         Method method = new Method();
-        assertEquals("49",method.replaceAllDigitsInAStringWithTheirSquares("7"));
+        assertEquals(" 49 ",method.replaceAllDigitsInAStringWithTheirSquares(" 7 "));
     }
 
     @Test
